@@ -7,7 +7,7 @@ function news_extract(){
 var news = document.getElementsByClassName("news-card-content news-right-box");
 var links = document.getElementsByClassName("source")
 
-if (news.length == news_count){
+if (news.length >= news_count){
 
 clearInterval(timer);
 //open new tab with details
